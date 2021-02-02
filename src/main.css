@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background-color: #f0e9fc;
+  font-family: "Montserrat", sans-serif;
+}
+
+.name-inputs,
+.address-inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+}
+.form-input {
+  display: flex;
+}
+.form-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-name-sec {
+  display: flex;
+}
