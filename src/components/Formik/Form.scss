@@ -1,0 +1,53 @@
+$primary-color: #1d3557;
+$error-color: #e63946;
+$text-color: #293241;
+$color-white: #fff;
+$shadow-color: #dedee6;
+$border-radius: 4px;
+
+.container {
+  margin-top: 5rem;
+  padding: 3rem 4rem;
+  border-radius: $border-radius;
+  margin: 0 auto;
+  width: 700px;
+  h1 {
+    font-size: 2rem;
+    color: $text-color;
+  }
+  label,
+  input {
+    color: $text-color;
+  }
+  label {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  input {
+    border: 2px solid rgba($primary-color, 0.8);
+    border-radius: $border-radius;
+    padding: 0.5rem 1rem;
+    padding-left: 1rem;
+  }
+  .form-row {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+  }
+  button {
+    color: $color-white;
+    width: 100%;
+    background-color: $primary-color;
+    border-radius: $border-radius;
+    cursor: pointer;
+    padding: 0.4rem 1.2rem;
+    &:hover {
+      background-color: lightcoral;
+    }
+  }
+
+  .success-msg {
+    background-color: greenyellow;
+  }
+}

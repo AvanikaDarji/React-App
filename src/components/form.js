@@ -3,7 +3,6 @@ import React , {useState} from "react";
 import useInputFields from "./useInputFields"
 import formData from "./data";
 
-
 export function Form(){
     const signup = () => {
         alert(`Full Name: ${inputs.firstName} ${inputs.middleName} ${inputs.lastName}

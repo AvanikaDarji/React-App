@@ -89,6 +89,6 @@ const form = {
     ],
 };
 
-console.log('DATA', form);
+//console.log('DATA', form);
 
 module.exports = form;
